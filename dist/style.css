@@ -1,0 +1,63 @@
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Inter", sans-serif;
+  color: #007aff;
+}
+
+.container {
+  width: 600px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  background-color: whitesmoke;
+  padding: 30px;
+}
+
+.container div {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  padding-bottom: 15px;
+}
+
+label {
+  width: 30%;
+}
+
+input {
+  width: 70%;
+}
+
+.swiper-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  padding: 50px 0;
+}
+
+.swiper {
+  width: 600px;
+  height: 300px;
+}
+
+.swiper-title {
+  width: 100%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.swiper-slide div {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+img {
+  max-height: 100%;
+}
