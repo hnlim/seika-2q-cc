@@ -1,5 +1,7 @@
 import * as Tone from "tone";
 
+window.alert("A〜Gキーを押してください");
+
 const synth = new Tone.Synth().toDestination();
 
 let scaleList = ["a", "b", "c", "d", "e", "f", "g"];
